@@ -51,6 +51,10 @@ Route::get('/register', function () {
     return view('main.register');
 });
 
+// sample ni kimmy
+Route::get('/fetchData', function () {
+});
+
 
 
 //Create User
