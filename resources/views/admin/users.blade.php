@@ -38,7 +38,7 @@
                     <div class="card-header">
                         <h4>&nbsp;</h4>
                         <div class="card-header-right">
-                           <a href="/create_user" class="btn btn-success">Create New User <i class="ti-plus text-white"></i></a>
+                           <a href="/register" class="btn btn-success">Create New User <i class="ti-plus text-white"></i></a>
                         </div>
                     </div>
                     <div class="card-block">
@@ -67,6 +67,19 @@
                                         </div>
                                     </td>
                                 </tr>
+
+                                <tr>
+                                    <td>biancamae</td>
+                                    <td>Bianca</td>
+                                    <td>Llamas</td>
+                                    <td><label class="label label-success">Active</label></td>
+                                    <td class="text-center">
+                                        <div class="btn-group">
+                                            <button class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" data-original-title="Update"><i class="ti-reload"></i></button>
+                                            <button class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="top" data-original-title="Delete"><i class="ti-trash"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>
                                 </tbody>
                             </table>
                             <div class="text-right m-r-20">
@@ -86,3 +99,4 @@
   </div>
 
 @endsection
+

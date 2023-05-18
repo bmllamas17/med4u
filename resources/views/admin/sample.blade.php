@@ -18,7 +18,7 @@
                       <li class="breadcrumb-item">
                           <a href="/"> <i class="fa fa-home"></i> </a>
                       </li>
-                      <li class="breadcrumb-item"><a href="#">Users</a>
+                      <li class="breadcrumb-item"><a href="#">Sample</a>
                       </li>
                   </ul>
               </div>
@@ -34,142 +34,262 @@
     <h2>BFDP 2023-Region IV-A Summary Report</h2>
 
  
-<ul class="nav nav-tabs" id="myTab" role="tablist">
+<ul class="nav nav-tabs">
 
   <li class="nav-tabs">
-    <a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Regional Summary</a>
+    <a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#tab1"role="tab">Regional Summary</a>
+  
   </li>
 
   <li class="nav-tabs">
-    <a class="nav-link" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Batangas</a>
+    <a class="nav-link" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab">Batangas</a>
   </li>
 
   <li class="nav-tabs">
-    <a class="nav-link" id="tab3-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Cavite</a>
+    <a class="nav-link" id="tab3-tab" data-toggle="tab" href="#tab3" role="tab">Cavite</a>
   </li>
 
   <li class="nav-tabs">
-    <a class="nav-link" id="tab4-tab" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">Laguna</a>
+    <a class="nav-link" id="tab4-tab" data-toggle="tab" href="#tab4" role="tab">Laguna</a>
   </li>
 
   <li class="nav-tabs">
-    <a class="nav-link" id="tab5-tab" data-toggle="tab" href="#tab5" role="tab" aria-controls="tab5" aria-selected="false">Quezon</a>
+    <a class="nav-link" id="tab5-tab" data-toggle="tab" href="#tab5" role="tab">Quezon</a>
   </li>
 
   <li class="nav-tabs">
-    <a class="nav-link" id="tab6-tab" data-toggle="tab" href="#tab6" role="tab" aria-controls="tab6" aria-selected="false">Rizal</a>
+    <a class="nav-link" id="tab6-tab" data-toggle="tab" href="#tab6" role="tab">Rizal</a>
   </li>
 
   <li class="nav-tabs">
-    <a class="nav-link" id="tab7-tab" data-toggle="tab" href="#tab7" role="tab" aria-controls="tab7" aria-selected="false">Lucena City</a>
+    <a class="nav-link" id="tab7-tab" data-toggle="tab" href="#tab7" role="tab">Lucena City</a>
   </li>
 
 </ul>
 
 
+
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab"></div>     
-  <table class="table">
-    <thead>
-        <tr>
-            <th>Region</th>
-            <th>Province</th>
-            <th>Total No. of Barangays</th>
-            <th>Full Compliance</th>
-            <th>Partial Compliance</th>
-            <th>Non-Compliance</th>
-            
-        </tr>
-    </thead>  
-    
-    <tbody>
-
-            <tr>
-            <td>IV-A</td>
-            <td>Batangas</td>
-            <td>1,078</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            </tr>
-
-            <tr>
-            <td></td>
-            <td>Cavite</td>
-            <td>829</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            </tr>
-
-            <tr>
-            <td></td>
-            <td>Laguna</td>
-            <td>681</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            </tr>
-
-            <tr>
-            <td></td>
-            <td>Quezon</td>
-            <td>1,209</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            </tr>
-
-            <tr>
-            <td></td>
-            <td>Lucena City</td>
-            <td>33</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            </tr>
-
-            <tr>
-            <td></td>
-            <td>Rizal</td>
-            <td>189</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            </tr>
-
-            
-            <tr>
-            <td></td>
-            <td><span style="font-weight: bold;"> SUB-TOTAL</span></td>
-            <td><span style="font-weight: bold;"> 4,019</span></td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            </tr>
-
-            <tr>
-            <td></td>
-            <td><span style="font-weight: bold;">PERCENTAGE</span></td>
-            <td></td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            </tr>
-
-    </tbody>
+  <div class="tab-pane fade show active" id="tab1"></div>
+  <div class="page-wrapper">
+    <!-- Page-body start -->
+    <div class="page-body">
+        <div class="row">
+           
+            <div class="col-md-12 col-xl-8">
+                <div class="card table-card">
+                    <div class="card-header">
+                        <h4>&nbsp;</h4>
+                        <div class="card-header-right">
+                           <a href="" class="btn btn-success">Save</a>
+                        </div>
+                    </div>
+                <div class="card-block">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                
+                                <thead> 
+                                <tr>
+                                    <th>PSGC</th>
+                                    <th>REGION</th>
+                                    <th>PROVINCE</th>
+                                    <th>CITY/MUNICIPALITY</th>
+                                    <th>BARANGAY</th>
+                                    <th>BFR</th>
+                                    <th>BARANGAY BUDGET</th>
+                                    <th>SUMMARY OF INCOME AND EXPENDITURES</th>
+                                    <th>20% COMPONENT OF IRA UTILIZATION</th>
+                                    <th>ANNUAL PROCUREMENT PLAN</th>
+                                    <th>LIST OF NOTICE OF AWARD</th>
+                                    <th>ITEMIZED MONTHLY COLLECTIONS AND DISBURSEMENTS</th>
+                                    <th>NO. OF DOCUMENTS POSTED (OUT OF 8)</th>
+                                    <th>FULL (9 documents posted)</th>
+                                    <th>PARTIAL (1-8 documents posted)</th>
+                                    <th>NC (0 documents posted)</th>
+                                </tr>
+                                <tr>
+                                    <td>41001001</td>
+                                    <td>REGION IV-A</td>
+                                    <td>BATANGAS</td>
+                                    <td>AGONCILLO</td>
+                                    <td>ADIA</td>
+                                    <td><center><input type="text" name="name1" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name2" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name3" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name4" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name5" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name6" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name7" style="width: 25px; height: 25px";></center></td>
+                                    <td><center>5</td>
+                                    <td><center>5</td>
+                                    <td><center>3</td>
+                                    <td><center>0</td>
+                                </tr>
+                                <tr>
+                                    <td>41001002</td>
+                                    <td>REGION IV-A</td>
+                                    <td>BATANGAS</td>
+                                    <td>AGONCILLO</td>
+                                    <td>BAGONG SIKAT</td>
+                                    <td><center><input type="text" name="name1" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name2" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name3" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name4" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name5" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name6" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name7" style="width: 25px; height: 25px";></center></td>
+                                    <td><center>4</td>
+                                    <td><center>4</td>
+                                    <td><center>2</td>
+                                    <td><center>0</td>
+                                </tr>
+                                <tr>
+                                    <td>41001004</td>
+                                    <td>REGION IV-A</td>
+                                    <td>BATANGAS</td>
+                                    <td>AGONCILLO</td>
+                                    <td>BALANGON</td>
+                                    <td><center><input type="text" name="name1" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name2" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name3" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name4" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name5" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name6" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name7" style="width: 25px; height: 25px";></center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                </tr>
+                                <tr>
+                                    <td>41001005</td>
+                                    <td>REGION IV-A</td>
+                                    <td>BATANGAS</td>
+                                    <td>AGONCILLO</td>
+                                    <td>BILIBINWANG</td>
+                                    <td><center><input type="text" name="name1" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name2" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name3" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name4" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name5" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name6" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name7" style="width: 25px; height: 25px";></center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                </tr>
+                                <tr>
+                                    <td>41001006</td>
+                                    <td>REGION IV-A</td>
+                                    <td>BATANGAS</td>
+                                    <td>AGONCILLO</td>
+                                    <td>BANGIN</td>
+                                    <td><center><input type="text" name="name1" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name2" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name3" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name4" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name5" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name6" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name7" style="width: 25px; height: 25px";></center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                </tr>
+                                <tr>
+                                    <td>41001007</td>
+                                    <td>REGION IV-A</td>
+                                    <td>BATANGAS</td>
+                                    <td>AGONCILLO</td>
+                                    <td>BARIGON</td>
+                                    <td><center><input type="text" name="name1" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name2" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name3" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name4" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name5" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name6" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name7" style="width: 25px; height: 25px";></center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                </tr>
+                                <tr>
+                                    <td>41001008</td>
+                                    <td>REGION IV-A</td>
+                                    <td>BATANGAS</td>
+                                    <td>AGONCILLO</td>
+                                    <td>CORAL NA MUNTI</td>
+                                    <td><center><input type="text" name="name1" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name2" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name3" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name4" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name5" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name6" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name7" style="width: 25px; height: 25px";></center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                </tr>
+                                <tr>
+                                    <td>41001009</td>
+                                    <td>REGION IV-A</td>
+                                    <td>BATANGAS</td>
+                                    <td>AGONCILLO</td>
+                                    <td>GUITNA</td>
+                                    <td><center><input type="text" name="name1" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name2" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name3" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name4" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name5" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name6" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name7" style="width: 25px; height: 25px";></center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                </tr>
+                                <tr>
+                                    <td>41001010</td>
+                                    <td>REGION IV-A</td>
+                                    <td>BATANGAS</td>
+                                    <td>AGONCILLO</td>
+                                    <td>MABINI</td>
+                                    <td><center><input type="text" name="name1" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name2" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name3" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name4" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name5" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name6" style="width: 25px; height: 25px";></center></td>
+                                    <td><center><input type="text" name="name7" style="width: 25px; height: 25px";></center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                    <td><center></td>
+                                </tr>
+                                
+                                
+                                </thead>
+                               
 </div>
 
+  <div class="tab-pane fade" id="tab2"></div> 
+ 
 
-  <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">Batangas</div>
-  <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">Cavite</div>
-  <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">Laguna</div>
-  <div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="tab5-tab">Quezon</div>
-  <div class="tab-pane fade" id="tab6" role="tabpanel" aria-labelledby="tab6-tab">Rizal</div>
-  <div class="tab-pane fade" id="tab7" role="tabpanel" aria-labelledby="tab7-tab">Lucena City</div>
 </div>
-
-
+  
+  <script>
+  $('.nav-tabs a').click(function(){
+    $(this).tab('show');
+  })
+</script>
 
 @endsection
+
+
+
+ 
+
 

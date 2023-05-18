@@ -31,6 +31,7 @@ class UserController extends Controller
         $formFields = $request->validate([
             'name'                  =>  ['required', 'min:3'],
             'username'              =>  ['required', Rule::unique('users', 'username')],
+            'email'                 =>  ['required', 'min:3'],
             'password'              =>  'required|min:6'
         ]);
 
@@ -44,6 +45,7 @@ class UserController extends Controller
         toastr()->success('User Registered Successfully!');
         return redirect('/register');
     }
+    
 
     /**
      * Display the specified resource.

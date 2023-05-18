@@ -28,6 +28,12 @@
 				                	<p class="text-danger text-xs mt-1">{{ $message }}</p>
 				                @enderror
 
+								<label for="" class="mt-3">Email</label>
+			         			<input type="text" class="form-control" name="email" value="{{old('email')}}">
+				                @error('email')
+				                	<p class="text-danger text-xs mt-1">{{ $message }}</p>
+				                @enderror
+
 			         			<label for="" class="mt-3">Password</label>
 			         			<input type="password" class="form-control" name="password">
 				                @error('password')

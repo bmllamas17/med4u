@@ -8,10 +8,12 @@ use App\Models\ReportHeader;
 use App\Models\Tblcitymun;
 use App\Models\Lgu;
 use App\Models\User;
+use App\Models\SampleGraph  ; 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Response;
+use Illuminate\Support\Facades\View;
 use Maatwebsite\Excel\Facades\Excel;
 use Illuminate\Support\Str;
 // use Facade\FlareClient\Http\Response;
@@ -57,6 +59,11 @@ class AdminController extends Controller
     public function sample()
     {
     	return view('admin.sample');
+    }
+
+    public function barangay()
+    {
+    	return view('admin.barangay');
     }
 
     public function view_report(Report $report)

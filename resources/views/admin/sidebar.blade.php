@@ -5,7 +5,7 @@
           <div class="main-menu-header">
               <img class="img-80 img-radius" src="dilg.png" alt="User-Profile-Image">
               <div class="user-details">
-                  <span id="more-details">John Doe<i class="fa fa-caret-down"></i></span>
+                  <span id="more-details">Admin<i class="fa fa-caret-down"></i></span>
               </div>
           </div>
 
@@ -69,6 +69,13 @@
               <a href="sample" class="waves-effect waves-dark">
                   <span class="pcoded-micon"><i class="ti-notepad"></i><b>D</b></span>
                   <span class="pcoded-mtext" data-i18n="nav.dash.main">Sample Template</span>
+                  <span class="pcoded-mcaret"></span>
+              </a>
+          </li>
+          <li>
+              <a href="barangay" class="waves-effect waves-dark">
+                  <span class="pcoded-micon"><i class="ti-notepad"></i><b>D</b></span>
+                  <span class="pcoded-mtext" data-i18n="nav.dash.main">Barangay</span>
                   <span class="pcoded-mcaret"></span>
               </a>
           </li>

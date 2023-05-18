@@ -14,21 +14,24 @@
 			         		<form method="POST" action="/users/authenticate">
         					@csrf
 			         			<center>
-			         				<h3>Admin Login</h3>
+			         				<h3>LGMES</h3>
 			         			</center>
-			         			<label for="" class="mt-3">Username</label>
-			         			<input type="text" class="form-control" name="username" value="{{old('username')}}">
+
+			         			<br>
+			         			<input type="text" href="" placeholder= "Username" class="form-control text-xs" name="username" value="{{old('username')}}">
 				                @error('username')
 				                	<p class="text-danger text-xs mt-1">{{ $message }}</p>
 				                @enderror
 
-			         			<label for="" class="mt-3">Password</label>
-			         			<input type="password" class="form-control" name="password">
+			         			<br>
+			         			<input type="password" placeholder= "Password" class="form-control" name="password">
 				                @error('password')
 				                	<p class="text-danger text-xs mt-1">{{ $message }}</p>
 				                @enderror
+
+								<br>
 			         			<center>
-			         				<button class="btn btn-primary mt-3">Login</button>
+			         				<button class="btn btn-primary mt-3">Sign In</button>
 			         			</center>
 			         		</form>
 
@@ -45,3 +48,4 @@
   </div>
 
 @endsection
+

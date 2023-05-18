@@ -38,7 +38,7 @@
                     <div class="card-block">
                         <div class="row align-items-center">
                             <div class="col-8">
-                                <h4 class="text-c-purple">200</h4>
+                                <h4 class="text-c-purple">43</h4>
                                 <h6 class="text-muted m-b-0">Total Reports</h6>
                             </div>
                             <div class="col-4 text-right">
@@ -49,7 +49,7 @@
                     <div class="card-footer bg-c-purple">
                         <div class="row align-items-center">
                             <div class="col-9">
-                                <p class="text-white m-b-0">% change</p>
+                                <p class="text-white m-b-0"></p>
                             </div>
                             <div class="col-3 text-right">
                                 <i class="fa fa-line-chart text-white f-16"></i>
@@ -64,7 +64,7 @@
                     <div class="card-block">
                         <div class="row align-items-center">
                             <div class="col-8">
-                                <h4 class="text-c-green">90</h4>
+                                <h4 class="text-c-green">5</h4>
                                 <h6 class="text-muted m-b-0">Users</h6>
                             </div>
                             <div class="col-4 text-right">
@@ -75,7 +75,7 @@
                     <div class="card-footer bg-c-green">
                         <div class="row align-items-center">
                             <div class="col-9">
-                                <p class="text-white m-b-0">% change</p>
+                                <p class="text-white m-b-0"></p>
                             </div>
                             <div class="col-3 text-right">
                                 <i class="fa fa-line-chart text-white f-16"></i>
@@ -89,7 +89,7 @@
                     <div class="card-block">
                         <div class="row align-items-center">
                             <div class="col-8">
-                                <h4 class="text-c-red">40%</h4>
+                                <h4 class="text-c-red">75%</h4>
                                 <h6 class="text-muted m-b-0">Storage Capacity</h6>
                             </div>
                             <div class="col-4 text-right">
@@ -100,7 +100,7 @@
                     <div class="card-footer bg-c-red">
                         <div class="row align-items-center">
                             <div class="col-9">
-                                <p class="text-white m-b-0">% change</p>
+                                <p class="text-white m-b-0"></p>
                             </div>
                             <div class="col-3 text-right">
                                 <i class="fa fa-line-chart text-white f-16"></i>
@@ -114,7 +114,7 @@
                     <div class="card-block">
                         <div class="row align-items-center">
                             <div class="col-8">
-                                <h4 class="text-c-blue">500</h4>
+                                <h4 class="text-c-blue">20</h4>
                                 <h6 class="text-muted m-b-0">Visitors</h6>
                             </div>
                             <div class="col-4 text-right">
@@ -125,7 +125,7 @@
                     <div class="card-footer bg-c-blue">
                         <div class="row align-items-center">
                             <div class="col-9">
-                                <p class="text-white m-b-0">% change</p>
+                                <p class="text-white m-b-0"></p>
                             </div>
                             <div class="col-3 text-right">
                                 <i class="fa fa-line-chart text-white f-16"></i>
@@ -140,7 +140,7 @@
             <div class="col-xl-12 col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Reports Analytics</h5>
+                        <h5>Overall Reports</h5>
                         <span class="text-muted">Get 15% Off on <a href="https://www.amcharts.com/" target="_blank">amCharts</a> licences. Use code "codedthemes" and get the discount.</span>
                         <div class="card-header-right">
                             <ul class="list-unstyled card-option">
@@ -226,10 +226,34 @@
                                         Assigned</th>
                                     <th>Name</th>
                                     <th>Due Date</th>
-                                    <th class="text-right">Priority</th>
+                                    <th class="text-right">Status</th>
                                 </tr>
                                 </thead>
                                 <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="chk-option">
+                                            <div class="checkbox-fade fade-in-primary">
+                                                <label class="check-task">
+                                                    <input type="checkbox" value="">
+                                                    <span class="cr">
+                                                                <i class="cr-icon fa fa-check txt-default"></i>
+                                                            </span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="d-inline-block align-middle">
+                                            <div class="d-inline-block">
+                                                <h6>BDFP</h6>
+                                                <p class="text-muted m-b-0">Gender and Development</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>John Doe</td>
+                                    <td>June 2, 2025</td>
+                                    <td class="text-right"><label class="label label-success">Active</label></td>
+                                </tr>
+                                <tr>
                                 <tr>
                                     <td>
                                         <div class="chk-option">
@@ -249,8 +273,8 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td>Able Pro</td>
-                                    <td>Jun, 26</td>
+                                    <td>Maria Corazon</td>
+                                    <td>June 26, 2025</td>
                                     <td class="text-right"><label class="label label-success">Active</label></td>
                                 </tr>
                                 <tr>
@@ -273,7 +297,7 @@
                                         </div>
                                     </td>
                                     <td>Able Pro</td>
-                                    <td>Jun, 26</td>
+                                    <td>June 26, 2025</td>
                                     <td class="text-right"><label class="label label-success">Active</label></td>
                                 </tr>
                                 <tr>
@@ -295,8 +319,8 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td>Able Pro</td>
-                                    <td>Jun, 26</td>
+                                    <td>Sample</td>
+                                    <td>June 26, 2025</td>
                                     <td class="text-right"><label class="label label-success">Active</label></td>
                                 </tr>
                                 </tbody>
@@ -311,7 +335,7 @@
             <div class="col-xl-4 col-md-12">
                 <div class="card ">
                     <div class="card-header">
-                        <h5>Team Members</h5>
+                        <h5>Users</h5>
                         <div class="card-header-right">
                             <ul class="list-unstyled card-option">
                                 <li><i class="fa fa fa-wrench open-card-option"></i></li>
@@ -324,24 +348,43 @@
                     </div>
                     <div class="card-block">
                         <div class="align-middle m-b-30">
-                            <img src="dilg.png" alt="user image" class="img-radius img-40 align-top m-r-15">
+                            <img src="user3.png" alt="user image" class="img-radius img-40 align-top m-r-15">
                             <div class="d-inline-block">
-                                <h6>Roderick Adaya</h6>
-                                <p class="text-muted m-b-0">Malvar</p>
+                                <h6>Rochell Adaya</h6>
+                                <p class="text-muted m-b-0">DILG IV-A</p>
+                                <p class="text-muted m-b-0">sample@gmail.com</p>
                             </div>
                         </div>
                         <div class="align-middle m-b-30">
-                            <img src="dilg.png" alt="user image" class="img-radius img-40 align-top m-r-15">
+                            <img src="user1.png" alt="user image" class="img-radius img-40 align-top m-r-15">
                             <div class="d-inline-block">
                                 <h6>Jessa Marie Mendoza</h6>
-                                <p class="text-muted m-b-0">Lipa City</p>
+                                <p class="text-muted m-b-0">DILG IV-A</p>
+                                <p class="text-muted m-b-0">sample@gmail.com</p>
                             </div>
                         </div>
                         <div class="align-middle m-b-30">
-                            <img src="dilg.png" alt="user image" class="img-radius img-40 align-top m-r-15">
+                            <img src="user4.png" alt="user image" class="img-radius img-40 align-top m-r-15">
                             <div class="d-inline-block">
                                 <h6>Arvin Vinluan</h6>
-                                <p class="text-muted m-b-0">Cuenca</p>
+                                <p class="text-muted m-b-0">DILG IV-A</p>
+                                <p class="text-muted m-b-0">sample@gmail.com</p>
+                            </div>
+                            </div>
+                        <div class="align-middle m-b-30">
+                            <img src="user5.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                            <div class="d-inline-block">
+                                <h6>John Doe</h6>
+                                <p class="text-muted m-b-0">DILG IV-A</p>
+                                <p class="text-muted m-b-0">sample@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="align-middle m-b-30">
+                            <img src="user2.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                            <div class="d-inline-block">
+                                <h6>Maria Corazon</h6>
+                                <p class="text-muted m-b-0">DILG IV-A</p>
+                                <p class="text-muted m-b-0">sample@gmail.com</p>
                             </div>
                         </div>
                         <div class="text-center">

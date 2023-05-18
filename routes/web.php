@@ -4,7 +4,10 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ReportEntryController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\LguController;
+use App\Http\Controllers\ChartController;
+use App\Http\Controllers\ContactUsController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -51,10 +54,41 @@ Route::get('/register', function () {
     return view('main.register');
 });
 
-// sample ni kimmy
-Route::get('/fetchData', function () {
+Route::get('/issuances', function () {
+    return view('main.issuances');
 });
 
+Route::get('/lgu_reports', function () {
+    return view('main.lgu_reports');
+});
+
+Route::get('/templates', function () {
+    return view('main.templates');
+});
+
+Route::get('/cavite-info', function () {
+    return view('main.cavite-info');
+});
+
+Route::get('/laguna-info', function () {
+    return view('main.laguna-info');
+});
+
+Route::get('/batangas-info', function () {
+    return view('main.batangas-info');
+});
+
+Route::get('/rizal-info', function () {
+    return view('main.rizal-info');
+});
+
+Route::get('/quezon-info', function () {
+    return view('main.quezon-info');
+});
+
+Route::get('/lucena-info', function () {
+    return view('main.lucena-info');
+});
 
 
 //Create User
@@ -66,6 +100,8 @@ Route::post('/users/authenticate', [UserController::class, 'authenticate']);
 //Logout User
 Route::post('/logout', [UserController::class, 'logout']);
 
+//Create Concern
+Route::post('/contact_us/create', [ContactUsController::class, 'store']);
 
 //Admin Report
 Route::get('/reports', [AdminController::class, 'reports']);
@@ -89,6 +125,9 @@ Route::get('/create_user', [AdminController::class, 'create_user']);
 Route::get('/storage', [AdminController::class, 'storage']);
 
 Route::get('/sample', [AdminController::class, 'sample']);
+
+Route::get('/barangay', [AdminController::class, 'barangay']);
+
 //Navigate to Calendar
 Route::get('/calendar', [AdminController::class, 'calendar']);
 
@@ -126,3 +165,21 @@ Route::delete('report/{report}', [AdminController::class, 'destroy'])->middlewar
 //View Report
 Route::get('/{report}', [AdminController::class, 'view_report']);
 
+Route::get('/cavite', [ChartController:: class,'pieChart']);
+
+Route::get('/laguna', [ChartController:: class,'pieChart']);
+
+Route::get('/batangas', [ChartController:: class,'pieChart']);
+
+Route::get('/rizal', [ChartController:: class,'pieChart']);
+
+Route::get('/quezon', [ChartController:: class,'pieChart']);
+
+Route::get('/lucena', [ChartController:: class,'pieChart']);
+
+///
+///Route::get('/admin/products', [AdminController::class, 'adminGetAllProducts'])->name('admin.products');
+
+///Route::get('/admin/products/comments', [AdminController::class, 'adminGetAllProducts'])->name('admin.products.comments');
+
+///Route::delete()

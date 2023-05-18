@@ -59,17 +59,7 @@
                       <a class="mobile-menu waves-effect waves-light" id="mobile-collapse" href="#">
                           <i class="ti-menu"></i>
                       </a>
-                      <div class="mobile-search waves-effect waves-light">
-                          <div class="header-search">
-                              <div class="main-search morphsearch-search">
-                                  <div class="input-group">
-                                      <span class="input-group-addon search-close"><i class="ti-close"></i></span>
-                                      <input type="text" class="form-control" placeholder="Enter Keyword">
-                                      <span class="input-group-addon search-btn"><i class="ti-search"></i></span>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
+                     
                       <center><a href="/">
                           <!-- <img class="img-fluid" src="admin/images/logo.png" alt="Theme-Logo" /> -->
                           <span>LGMED</span>
@@ -88,7 +78,7 @@
                               <div class="main-search morphsearch-search">
                                   <div class="input-group">
                                       <span class="input-group-addon search-close"><i class="ti-close"></i></span>
-                                      <input type="text" class="form-control">
+                                      <input type="text" class="form-control" placeholder="Search..">
                                       <span class="input-group-addon search-btn"><i class="ti-search"></i></span>
                                   </div>
                               </div>
@@ -110,17 +100,39 @@
                                       <h6>Notifications</h6>
                                       <label class="label label-danger">New</label>
                                   </li>
-                                  
+
                                   <li class="waves-effect waves-light">
                                       <div class="media">
-                                          <img class="d-flex align-self-center img-radius" src="dilg.png" alt="Generic placeholder image">
+                                          <img class="d-flex align-self-center img-radius" src="user1.png" alt="Generic placeholder image">
                                           <div class="media-body">
-                                              <h5 class="notification-user">John Doe</h5>
-                                              <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
-                                              <span class="notification-time">30 minutes ago</span>
+                                              <h5 class="notification-user">bmllms</h5>
+                                              <p class="notification-msg">Successfully updated sample!</p>
+                                              <span class="notification-time">2 seconds ago</span>
                                           </div>
                                       </div>
                                   </li>
+
+                                  <li class="waves-effect waves-light">
+                                      <div class="media">
+                                          <img class="d-flex align-self-center img-radius" src="user1.png" alt="Generic placeholder image">
+                                          <div class="media-body">
+                                              <h5 class="notification-user">bmllms</h5>
+                                              <p class="notification-msg">Welcome back bmllms!</p>
+                                              <span class="notification-time">5 minutes ago</span>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li class="waves-effect waves-light">
+                                      <div class="media">
+                                          <img class="d-flex align-self-center img-radius" src="user1.png" alt="Generic placeholder image">
+                                          <div class="media-body">
+                                              <h5 class="notification-user">Admin</h5>
+                                              <p class="notification-msg">New device logged in</p>
+                                              <span class="notification-time">5 minutes ago</span>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  
                                   
                                   
                               </ul>
@@ -128,15 +140,11 @@
                           <li class="user-profile header-notification">
                               <a href="#" class="waves-effect waves-light">
                                   <img src="dilg.png" class="img-radius" alt="User-Profile-Image">
-                                  <span>John Doe</span>
+                                  <span>Admin</span>
                                   <i class="ti-angle-down"></i>
                               </a>
                               <ul class="show-notification profile-notification">
-                                  <li class="waves-effect waves-light">
-                                      <a href="#">
-                                          <i class="ti-settings"></i> Settings
-                                      </a>
-                                  </li>
+                                  
                                   <li class="waves-effect waves-light">
                                       <a href="user-profile.html">
                                           <i class="ti-user"></i> Profile
@@ -153,11 +161,16 @@
                                       </a>
                                   </li>
                                   <li class="waves-effect waves-light">
+                                      <a href="#">
+                                          <i class="ti-settings"></i> Settings
+                                      </a>
+                                  </li>
+                                  <li class="waves-effect waves-light">
                                     <center>
                                       <form action="/logout" method="POST">
                                         @csrf
                                         <button type="submit" class="btn btn-danger">
-                                            <i class="ti-layout-sidebar-left"></i> Logout
+                                            <i class="ti-layout-sidebar-left"></i> Sign out
                                         </button>
                                       </form>
                                     </center>
@@ -226,6 +239,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
 </body>

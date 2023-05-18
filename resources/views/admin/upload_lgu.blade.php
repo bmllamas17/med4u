@@ -52,7 +52,7 @@
                                 <input type="hidden" id="province_id" name="province_id">
                                 <label for="">PROVINCE</label>
                                 <select name="province" class="form-control" id="select_province">
-                                  <option value="" disabled="" selected=""><i>~Select Province~</i></option>
+                                  <option value="" disabled="" selected=""><i>-Select Province-</i></option>
                                   <option value="10">Batangas</option>
                                   <option value="34">Laguna</option>
                                   <option value="21">Cavite</option>
@@ -66,7 +66,7 @@
                               <div class="col-md-3">
                                 <label for="">LGU</label>
                                 <select name="citymun" id="select_lgu" class="form-control">
-                                  <option value="" disabled="" selected=""><i>~Select City/Municipality~</i></option>
+                                  <option value="" disabled="" selected=""><i>-Select City/Municipality-</i></option>
                                   <!-- @foreach ($lgus as $lgu)
                                     <option value="">{{ $lgu->citymun_m }}</option>
                                   @endforeach -->

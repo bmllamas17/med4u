@@ -35,7 +35,7 @@
                   <a class="nav-link" href="/about-us">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/lgu-reports">LGU Monitoring</a>
+                  <a class="nav-link" href="/lgu-reports">Infographic Reports</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/contact-us">Contact Us</a>

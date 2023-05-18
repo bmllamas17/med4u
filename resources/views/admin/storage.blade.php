@@ -17,7 +17,7 @@
                       <li class="breadcrumb-item">
                           <a href="/"> <i class="fa fa-home"></i> </a>
                       </li>
-                      <li class="breadcrumb-item"><a href="#">Users</a>
+                      <li class="breadcrumb-item"><a href="#">Storage</a>
                       </li>
                   </ul>
               </div>

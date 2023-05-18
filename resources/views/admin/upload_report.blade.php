@@ -57,7 +57,7 @@
                               <div class="col-md-7">
                                 <label for="">Report <i class="text-danger">(.xls, .xlsx)</i> <a href="SampleReportEntry1.xlsx" class="text-warning"><u><i>Download Sample</i> <i class="ti-download"></i></u></a></label>
                                 <input type="file" class="form-control" name="report_file" value="{{ old('report_file') }}">
-                                @error('report_file')
+                                @error('report_file') 
                                   <p class="text-danger mt-1">{{ $message }}</p>
                                 @enderror
                               </div>
@@ -65,7 +65,8 @@
                             <div class="row mt-5">
                               <div class="col-md-5">
                                 <label for="">Description</label>
-                                <textarea name="description" id="" cols="30" rows="7" class="form-control">{{ old('description') }}</textarea>
+                                <textarea name="description" id="" cols="30" rows="7" class="form-control">{{ 
+                                  ('description') }}</textarea>
                                 @error('description')
                                   <p class="text-danger mt-1">{{ $message }}</p>
                                 @enderror
@@ -105,8 +106,11 @@
                                 </button>
                                 <table class="table table-hover table-bordered mt-2" id="table_header">
                                   <thead>
+                                    <tr>
                                     <th>Province</th>
                                     <th>City/Municipality</th>
+                                    </tr>
+                                    
                                   </thead>
                                 </table>
                               </div>
